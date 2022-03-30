@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-usagisah",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "适用于的 lib, react, vue3, ts, js 的，开放又通用的配置",
   "main": "eslint-plugin-usagisah.js",
   "files": ["eslint-plugin-usagisah"],
