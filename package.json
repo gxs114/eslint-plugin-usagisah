@@ -1,0 +1,53 @@
+{
+  "name": "eslint-plugin-usagisah",
+  "version": "1.0.0",
+  "description": "适用于的 lib, react, vue3, ts, js 的，开放又通用的配置",
+  "main": "eslint-plugin-usagisah.js",
+  "files": ["eslint-plugin-usagisah"],
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxs114/eslint-plugin-usagisah.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslint-config",
+    "eslint vue3",
+    "eslint react",
+    "eslint prettier",
+    "eslint typescript",
+    "usagisah",
+    "gxs114"
+  ],
+  "author": "gxs114",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gxs114/eslint-plugin-usagisah/issues"
+  },
+  "homepage": "https://github.com/gxs114/eslint-plugin-usagisah#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "cosmiconfig": "^7.0.1",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.6.1",
+    "prettier-plugin-packagejson": "^2.2.17",
+    "react": "^18.0.0",
+    "vue-eslint-parser": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.1"
+  }
+}
