@@ -1,10 +1,10 @@
 module.exports = {
   configs: {
-    base: require("./lib/base"),
-    vue3: require("./lib/vue3"),
-    react: require("./lib/react"),
-    typescript: require("./lib/typescript"),
-    prettier: require("./lib/prettier"),
-    recommended: require("./lib/recommended")
+    base: require.resolve("./lib/base"),
+    vue3: require.resolve("./lib/vue3"),
+    react: require.resolve("./lib/react"),
+    typescript: require.resolve("./lib/typescript"),
+    prettier: require.resolve("./lib/prettier"),
+    recommended: require.resolve("./lib/recommended")
   }
 }
